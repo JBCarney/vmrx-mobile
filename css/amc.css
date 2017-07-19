@@ -1,0 +1,66 @@
+body { color:#5a5a5a }
+main {padding-top:5.2em;position:relative}
+.push-right {float:right;}
+
+@media (min-width: 767px) {
+    main {padding-top:5.2em;}
+}
+@media (max-width: 767px) {
+    main {padding-top:4.2em;}
+}
+section {padding:3vh 0}
+
+section.shade-1 {background-color:#e5e5e5}
+
+.delivered {color: #3c763d;background-color: #dff0d8;border-color: #d6e9c6;font-weight: 500}
+    .out-for-delivery {color: #8a6d3b;background-color: #fcf8e3;border-color: #faebcc;}
+    .delayed {color: #a94442;background-color: #f2dede;border-color: #ebccd1;font-weight: 500}
+
+
+nav { background-color:rgba(53, 53, 53, 0.55) }
+
+.intro .btn { width:40vw }
+.brand-name { font-size: 4.5rem; }
+.font-bold { font-weight: 500; }
+
+/* logo text */
+.pmc-blue { color: #2196f3 }
+.primary-color .pmc-blue { color: #fff; }
+.pmc-orange { color:#ff9800 }
+.pmc-gray{ font-weight:100;}
+
+/* page specific */
+.intro-page .intro {
+    /*background-image: url(../img/stock/pills.jpg);*/
+    background-size:cover;
+    height:100vh;
+}
+
+.selected-rx em {color:red;font-style: normal }
+.selected-rx label { font-weight: 500; font-size:1rem }
+.selected-rx .card-title { font-weight: 500; }
+.selected-rx h3 {margin-bottom: .9rem; }
+.selected-rx .card-block h5 { font-size:1.1rem; }
+.selected-rx .card-block .alert { padding:.55rem 1rem;display:inline-block; }
+.selected-rx .alternatives .mb-custom { margin-bottom:.65rem }
+
+#in-face-alert {display:none;}
+.in-face-alert {position:absolute;height:100%;z-index:100;background-color:rgba(53, 53, 53, 0.55);transition: position 0.5s ease}
+.in-face-alert > div {width:100vw;height:100vh}
+.in-face-alert > div > div {position:fixed;left:0;right:0;margin:0 auto;top:33vh;width:90%;}
+.getout { left:-1000px}
+.getout > div > div {position: relative}
+
+.rx-pricing-display #alert {display:none;}
+    .rx-pricing-display .swiper-container-horizontal > .swiper-scrollbar {bottom:10px}
+
+.rx-selection-display .list-group-item h5 {margin-top:.5em}
+    .rx-selection-display .card-container{ padding:.3em; }
+
+@media (max-width: 576px) {
+    .col-sm-spacer > div {margin-bottom:1em;}
+}
+
+@media (max-width: 555px) {
+    .intro .brand-name {transform: scale(.5)}
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <style>
+      ul, li {width:100%;margin:0;padding:0}
+      li {width:100%;margin:0 !important}
+      li a {padding:12px 0;display:block;border-bottom:solid 1px #ccc;}
+      li a:hover {background-color:#f5f5f5}
+
+      .btn-group>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle),
+      .btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {white-space: nowrap !important;padding-top: 24px;}
+
+      li [type=checkbox]+label:before, li [type=checkbox], li [type=radio]+label:before, li [type=radio] {display:none;}
+      li [type=radio]:checked+label, [type=radio]:not(:checked)+label, [type=checkbox]+label {font-size:2em;padding-left:0;line-height:1.3em}
+    </style>
+    <!-- Start your project here-->
+    <div style="height: 100vh;position:relative;background-color:rgba(234, 234, 234, 0.95)">
+        <div style="position:absolute;right:0;top:0;font-size:3em;padding:0 3px 0 0">
+          <a href=""><i class="fa fa-times push-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="flex-center flex-column">
+          <input style="height:60px;width:100%;font-size:4vh;padding-left:2%;padding-right:45px" />
+          <ul style="height: 80vh;display:none;">
+            <li>Search by drug name</li>
+          </ul>          
+          <ul style="height: 80vh;overflow-y:scroll;">
+            <li><a href=""><input id="Cymbalta" type="radio" name="selection1" value="Cymbalta"/><label for="Cymbalta">Cymbalta</label></a></li>
+            <li><a href=""><input id="Lexapro" type="checkbox" name="selection1" value="Lexapro"/><label for="Lexapro">Lexapro</label></a></li>
+            <li><a href=""><input id="Effexor XR" type="checkbox" name="selection1" value="Effexor XR"/><label for="Effexor XR">Effexor XR</label></a></li>
+            <li><a href=""><input id="Zoloft" type="checkbox" name="selection1" value="Zoloft"/><label for="Zoloft">Zoloft</label></a></li>
+            <li><a href=""><input id="Celexa" type="checkbox" name="selection1" value="Celexa"/><label for="Celexa">Celexa</label></a></li>
+            <li><a href=""><input id="trazodone" type="checkbox" name="selection1" value="trazodone"/><label for="trazodone">Trazodone</label></a></li>
+            <li><a href=""><input id="Prozac" type="checkbox" name="selection1" value="Prozac"/><label for="Prozac">Prozac</label></a></li>
+            <li><a href=""><input id="Wellbutrin XL" type="checkbox" name="selection1" value="Wellbutrin XL"/><label for="Wellbutrin XL">Wellbutrin XL</label></a></li>
+            <li><a href=""><input id="citalopram" type="checkbox" name="selection1" value="citalopram"/><label for="citalopram">Citalopram</label></a></li>
+            <li><a href=""><input id="Pristiq" type="checkbox" name="selection1" value="Pristiq"/><label for="Pristiq">Pristiq</label></a></li>
+            <li><a href=""><input id="amitriptyline" type="checkbox" name="selection1" value="amitriptyline"/><label for="amitriptyline">Amitriptyline</label></a></li>
+            <li><a href=""><input id="Savella" type="checkbox" name="selection1" value="Savella"/><label for="Savella">Savella</label></a></li>
+            <li><a href=""><input id="Viibryd" type="checkbox" name="selection1" value="Viibryd"/><label for="Viibryd">Viibryd</label></a></li>
+            <li><a href=""><input id="Paxil CR" type="checkbox" name="selection1" value="Paxil CR"/><label for="Paxil CR">Paxil CR</label></a></li>
+            <li><a href=""><input id="Paxil" type="checkbox" name="selection1" value="Paxil"/><label for="Paxil">Paxil</label></a></li>
+            <li><a href=""><input id="sertraline" type="checkbox" name="selection1" value="sertraline"/><label for="sertraline">Sertraline</label></a></li>
+            <li><a href=""><input id="Remeron" type="checkbox" name="selection1" value="Remeron"/><label for="Remeron">Remeron</label></a></li>
+            <li><a href=""><input id="nortriptyline" type="checkbox" name="selection1" value="nortriptyline"/><label for="nortriptyline">Nortriptyline</label></a></li>
+            <li><a href=""><input id="venlafaxine" type="checkbox" name="selection1" value="venlafaxine"/><label for="venlafaxine">Venlafaxine</label></a></li>
+            <li><a href=""><input id="fluoxetine" type="checkbox" name="selection1" value="fluoxetine"/><label for="fluoxetine">Fluoxetine</label></a></li>
+            <li><a href=""><input id="bupropion HCl" type="checkbox" name="selection1" value="bupropion HCl"/><label for="bupropion HCl">Bupropion HCl</label></a></li>
+            <li><a href=""><input id="mirtazapine" type="checkbox" name="selection1" value="mirtazapine"/><label for="mirtazapine">Mirtazapine</label></a></li>
+            <li><a href=""><input id="Ritalin" type="checkbox" name="selection1" value="Ritalin"/><label for="Ritalin">Ritalin</label></a></li>
+            <li><a href=""><input id="paroxetine" type="checkbox" name="selection1" value="paroxetine"/><label for="paroxetine">Paroxetine</label></a></li>
+          </ul>
+          <div class="btn-group" data-toggle="buttons" style="height: 10vh;">
+            <label class="btn btn-primary">
+              <input type="radio" name="options" id="option2" autocomplete="off" checked> MG
+            </label>
+            <label class="btn btn-primary">
+              <input type="radio" name="options" id="option3" autocomplete="off"> ML
+            </label>
+          </div>
+        </div>
+    </div>
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
