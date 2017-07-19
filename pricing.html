@@ -3,286 +3,310 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.css" rel="stylesheet">
-    <link href="css/swiper.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/amc.css" rel="stylesheet">
-    <style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.css" rel="stylesheet">
+  <link href="css/swiper.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/amc.css" rel="stylesheet">
+  <style>
 
-    </style>
+  </style>
 </head>
 
 <body class="intro-page">
-    <header>
+  <header>
 
-        <!--Navbar-->
-        <nav class="navbar fixed-top navbar-toggleable-md navbar-dark scrolling-navbar primary-color">
+    <!--Navbar-->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-dark scrolling-navbar primary-color">
 
-            <div class="container">
+      <div class="container">
 
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <a class="navbar-brand" href="dashboard.html">
+        <a class="navbar-brand" href="dashboard.html">
                     <span class="pmc-blue font-bold">View</span><span class="pmc-gray">Master</span><span class="pmc-orange">Rx</span>
                 </a>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav">
 
-                    <!--Links-->
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="dashboard.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="alerts.html" data-offset="100">Alerts <span class="new badge red">3</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="pricing.html" data-offset="100">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="manifest.html" data-offset="100">Manifest</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="#login" data-offset="100">Logout</a>
-                        </li>
-                    </ul>
+          <!--Links-->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="dashboard.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="alerts.html" data-offset="100">Alerts <span class="new badge red">3</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="pricing.html" data-offset="100">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="manifest.html" data-offset="100">Manifest</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="#login" data-offset="100">Logout</a>
+            </li>
+          </ul>
 
-                </div>
-            </div>
-        </nav>
-        <!--/Navbar-->
-
-    </header>
-    <!-- Start your project here-->
-    <main class="rx-pricing-display">
-        <div id="in-face-alert" class="wow fadeIn animated in-face-alert" onclick="this.className='in-face-alert getout'">
-            <div class="flex-center flex-column text-center">
-                <div class="alert alert-success">Alternative Pricing Found</div>
-            </div>
         </div>
-        <section id="rx-search" class="pt-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h2 class="font-bold">Rx Lookup</h2>
-                        <div class="form-group search-control md-form">
-                            <!--<span class="fa fa-search form-control-feedback"></span>-->
-                            <input id="fname" type="text" class="validate form-control" placeholder="Enter Rx Information">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="rx-detail-info">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 input-field md-form">
-                        <h5 class="mb-1 font-bold">HYDROCODON-ACETAMINOPHN 10-325</h5>
-                        <div><strong>Package:</strong> BOTTLE of 500 Unit(s)</div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 col-md-3">
-                        <div class="input-field md-form">
-                            <input id="dayQty" type="text" class="form-control">
-                            <label for="dayQty">Days Supply*</label>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-md-3">
-                        <div id="dailyQty" class="input-field md-form">
-                            <input id="dailyQty" type="text" class="form-control">
-                            <label for="dailyQty">Daily Quantity*</label>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 col-md-3">
-                        <div id="totalQty" class="input-field md-form">
-                            <input id="totalQty" type="text" class="form-control">
-                            <label for="totalQty">Total Quantity*</label>
-                        </div>
-                    </div>
-                </div>
-                <div id="alert" class="row">
-                    <div class="col-sm-12">
-                        <div class="alert alert-danger alert-dismissable mb-1">Maecenas sed diam eget risus varius blandit sit amet non magna.</div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <button type="button" class="btn btn-primary waves-effect waves-light">Price &amp; Alternatives</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="rx-selector" class="shade-1 selected-rx">
-            <div class="container">
-                <div class="row col-sm-spacer">
-                    <div class="col-sm-6 searched">
-                        <div class="card-container">
-                            <h3 class="font-bold">Selected Rx</h3>
-                            <div class="card mb-1">
-                                <div class="card-block">
-                                    <h5 class="card-title">HYDROCODON-ACETAMINOPHN 10-325</h5>
-                                    <div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div>
-                                    <div class="card-text"><label>Your Cost:</label> <span class="green-text font-bold">$0.00</span></div>
-                                    <div class="card-text"><label>List Price:</label> $8.48</div>
-                                    <div class="card-text"><label>Included in Per Diem:</label> <span class="green-text font-bold">Yes</span></div>
-                                    <div class="card-text"><label>Med D:</label> <span class="red-text font-bold">N/A</span></div>
-                                    <hr/>
-                                    <button type="button" class="btn btn-primary waves-effect waves-light">Select</button>
-                                    <div class="alert alert-danger alert-dismissable">DO NOT SEND OTC*</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      </div>
+    </nav>
+    <!--/Navbar-->
 
-                    <div class="col-sm-6 alternatives">
-                        <h3 class="mb-custom">&nbsp;<span class="font-bold">Alternatives</span> &nbsp;<span class="new badge green">3</span></h3>
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide active">
-                                    <div class="card-container">
-                                        <div class="card mb-1">
-                                            <div class="card-block">
-                                                <h5 class="card-title">NORCO 5-325 TABLET</h5>
-                                                <div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div>
-                                                <div class="card-text"><label>Your Cost:</label> $82.82</div>
-                                                <div class="card-text"><label>List Price:</label> $82.82</div>
-                                                <div class="card-text"><label>Included in Per Diem:</label> <span class="red-text font-bold">No</span></div>
-                                                <div class="card-text"><label>Med D:</label> <span class="red-text font-bold">N/A</span></div>
-                                                <hr/>
-                                                <button type="button" class="btn btn-primary waves-effect waves-light">Select</button>
-                                                <div class="alert alert-danger alert-dismissable">DO NOT SEND OTC*</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card-container">
-                                        <div class="card mb-1">
-                                            <div class="card-block">
-                                                <h5 class="card-title">NORCO 5-326 TABLET</h5>
-                                                <div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div>
-                                                <div class="card-text"><label>Your Cost:</label> $92.82</div>
-                                                <div class="card-text"><label>List Price:</label> $92.82</div>
-                                                <div class="card-text"><label>Included in Per Diem:</label> <span class="red-text font-bold">No</span></div>
-                                                <div class="card-text"><label>Med D:</label> <span class="red-text font-bold">N/A</span></div>
-                                                <hr/>
-                                                <button type="button" class="btn btn-primary waves-effect waves-light">Select</button>
-                                                <div class="alert alert-danger alert-dismissable">DO NOT SEND OTC*</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="card-container">
-                                        <div class="card mb-1">
-                                            <div class="card-block">
-                                                <h5 class="card-title">NORCO 5-327 TABLET</h5>
-                                                <div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div>
-                                                <div class="card-text"><label>Your Cost:</label> $102.82</div>
-                                                <div class="card-text"><label>List Price:</label> $102.82</div>
-                                                <div class="card-text"><label>Included in Per Diem:</label> <span class="red-text font-bold">No</span></div>
-                                                <div class="card-text"><label>Med D:</label> <span class="red-text font-bold">N/A</span></div>
-                                                <hr/>
-                                                <button type="button" class="btn btn-primary waves-effect waves-light">Select</button>
-                                                <div class="alert alert-danger alert-dismissable">DO NOT SEND OTC*</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Add Scrollbar -->
-                            <div class="swiper-scrollbar"></div>
-                        </div>
-                    </div>
-                </div>
+  </header>
+  <!-- Start your project here-->
+  <main class="rx-pricing-display">
+    <div id="in-face-alert" class="wow fadeIn animated in-face-alert" onclick="this.className='in-face-alert getout'">
+      <div class="flex-center flex-column text-center">
+        <div class="alert alert-success">Alternative Pricing Found</div>
+      </div>
+    </div>
+    <section id="rx-search" class="pt-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="font-bold">Rx Lookup</h2>
+            <div class="form-group search-control md-form">
+              <!--<span class="fa fa-search form-control-feedback"></span>-->
+              <input id="fname" type="text" class="validate form-control" placeholder="Enter Rx Information">
             </div>
-        </section>
-        <section id="rx-selections">
-            <div class="container">
-                <h3 class="mb-1 font-bold">Rx Selections</h3>
-                <div class="list-group rx-selection-display">
-                    <div class="list-group-item list-group-item-action flex-column align-items-start">
-                        <div class="d-flex w-100 justify-content-between btn-group">
-                            <h5 class="mb-1">List group item heading</h5>
-                            <a class="fa fa-remove"></a>
-                        </div>
-                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                        <small>Donec id elit non mi porta.</small>
-                    </div>
-                    <div class="list-group-item list-group-item-action flex-column align-items-start">
-                        <div class="d-flex w-100 justify-content-between btn-group">
-                            <h5 class="mb-1">List group item heading</h5>
-                            <a class="fa fa-remove"></a>
-                        </div>
-                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                        <small class="text-muted">Donec id elit non mi porta.</small>
-                    </div>
-                    <div class="list-group-item list-group-item-action flex-column align-items-start">
-                        <div class="d-flex w-100 justify-content-between btn-group">
-                            <h5 class="mb-1">List group item heading</h5>
-                            <a class="fa fa-remove"></a>
-                        </div>
-                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                        <small class="text-muted">Donec id elit non mi porta.</small>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div id="rx-selections-save" class="container selection-save">
-            <div class="row">
-                <div class="col-sm-12 input-field md-form">
-                    <button type="button" class="btn btn-primary waves-effect waves-light">Do 'Something' Button</button>
-                </div>
-            </div>
+          </div>
         </div>
-        <section>
-            <div class="container">
-            <h3 class="mb-1 font-bold">Pricing Estimates</h3>
-                <p>Pricing provided is not a quotation or promise to provide a certain price. We strive to provide accurate pricing using your contract with PharMerica, available payor information and the pricing system as of the day and time it was processed. For Fee-for-Service contract customers that are adjudicated through a third-party, wholesale pricing (AWP) will be displayed. Final pricing is subject to change without notice and is not considered final until invoiced. Actual invoiced amounts may vary due to a number of factors, which include, but are not limited to, the accuracy of payor information, the NDC carried by the pharmacy and the NDC available at the time of dispense.</p>
-                <p>* For IV's, Compounds and other medications that are dependent upon specialized handling, call your pharmacy.</p>
-                <p>* Accessories and supplies may be added to the order without notice and the cost may not be included in the pricing shown.</p>
-                <p>* Estimates for items that are not specifically listed can be obtained by calling your pharmacy.</p>
+      </div>
+    </section>
+    <section id="rx-detail-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 input-field md-form">
+            <h5 class="mb-1 font-bold">HYDROCODON-ACETAMINOPHN 10-325</h5>
+            <div><strong>Package:</strong> BOTTLE of 500 Unit(s)</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-md-3">
+            <div class="input-field md-form">
+              <input id="dayQty" type="text" class="form-control">
+              <label for="dayQty">Days Supply*</label>
             </div>
-        </section>
-    </main>
-    <!-- /Start your project here-->
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <div id="dailyQty" class="input-field md-form">
+              <input id="dailyQty" type="text" class="form-control">
+              <label for="dailyQty">Daily Quantity*</label>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <div id="totalQty" class="input-field md-form">
+              <input id="totalQty" type="text" class="form-control">
+              <label for="totalQty">Total Quantity*</label>
+            </div>
+          </div>
+        </div>
+        <div id="alert" class="row">
+          <div class="col-sm-12">
+            <div class="alert alert-danger alert-dismissable mb-1">Maecenas sed diam eget risus varius blandit sit amet non magna.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <button type="button" class="btn btn-primary waves-effect waves-light">Price &amp; Alternatives</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="rx-selector" class="shade-1 selected-rx">
+      <div class="container">
+        <div class="row col-sm-spacer">
+          <div class="col-sm-6 searched">
+            <div class="card-container">
+              <h3 class="font-bold">Selected Rx</h3>
+              <div class="card mb-1">
+                <div class="card-block">
+                  <h5 class="card-title">HYDROCODON-ACETAMINOPHN 10-325</h5>
+                  <div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div>
+                  <div class="card-text"><label>Your Cost:</label> <span class="green-text font-bold">$0.00</span></div>
+                  <div class="card-text"><label>List Price:</label> $8.48</div>
+                  <div class="card-text"><label>Included in Per Diem:</label> <span class="green-text font-bold">Yes</span></div>
+                  <div class="card-text"><label>Med D:</label> <span class="red-text font-bold">N/A</span></div>
+                  <hr/>
+                  <button type="button" class="btn btn-primary waves-effect waves-light">Select</button>
+                  <div class="alert alert-danger alert-dismissable">DO NOT SEND OTC*</div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/tether.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Swiper core JavaScript -->
-    <script type="text/javascript" src="js/swiper.min.js"></script>
+          <div class="col-sm-6 alternatives">
+            <h3 class="mb-custom">&nbsp;<span class="font-bold">Alternatives</span> &nbsp;<span class="new badge green">3</span></h3>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide active">
+                  <div class="card-container">
+                    <div class="card mb-1">
+                      <div class="card-block">
+                        <h5 class="card-title">NORCO 5-325 TABLET</h5>
+                        <div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div>
+                        <div class="card-text"><label>Your Cost:</label> $82.82</div>
+                        <div class="card-text"><label>List Price:</label> $82.82</div>
+                        <div class="card-text"><label>Included in Per Diem:</label> <span class="red-text font-bold">No</span></div>
+                        <div class="card-text"><label>Med D:</label> <span class="red-text font-bold">N/A</span></div>
+                        <hr/>
+                        <button type="button" class="btn btn-primary waves-effect waves-light">Select</button>
+                        <div class="alert alert-danger alert-dismissable">DO NOT SEND OTC*</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card-container">
+                    <div class="card mb-1">
+                      <div class="card-block">
+                        <h5 class="card-title">NORCO 5-326 TABLET</h5>
+                        <div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div>
+                        <div class="card-text"><label>Your Cost:</label> $92.82</div>
+                        <div class="card-text"><label>List Price:</label> $92.82</div>
+                        <div class="card-text"><label>Included in Per Diem:</label> <span class="red-text font-bold">No</span></div>
+                        <div class="card-text"><label>Med D:</label> <span class="red-text font-bold">N/A</span></div>
+                        <hr/>
+                        <button type="button" class="btn btn-primary waves-effect waves-light">Select</button>
+                        <div class="alert alert-danger alert-dismissable">DO NOT SEND OTC*</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card-container">
+                    <div class="card mb-1">
+                      <div class="card-block">
+                        <h5 class="card-title">NORCO 5-327 TABLET</h5>
+                        <div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div>
+                        <div class="card-text"><label>Your Cost:</label> $102.82</div>
+                        <div class="card-text"><label>List Price:</label> $102.82</div>
+                        <div class="card-text"><label>Included in Per Diem:</label> <span class="red-text font-bold">No</span></div>
+                        <div class="card-text"><label>Med D:</label> <span class="red-text font-bold">N/A</span></div>
+                        <hr/>
+                        <button type="button" class="btn btn-primary waves-effect waves-light">Select</button>
+                        <div class="alert alert-danger alert-dismissable">DO NOT SEND OTC*</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Add Scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="rx-selections">
+      <div class="container">
+        <h3 class="mb-1 font-bold">Rx Selections</h3>
+        <div class="list-group rx-selection-display">
+          <div class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between btn-group">
+              <h5 class="mb-1">List group item heading</h5>
+              <a class="fa fa-remove"></a>
+            </div>
+            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+            <small>Donec id elit non mi porta.</small>
+          </div>
+          <div class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between btn-group">
+              <h5 class="mb-1">List group item heading</h5>
+              <a class="fa fa-remove"></a>
+            </div>
+            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+            <small class="text-muted">Donec id elit non mi porta.</small>
+          </div>
+          <div class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between btn-group">
+              <h5 class="mb-1">List group item heading</h5>
+              <a class="fa fa-remove"></a>
+            </div>
+            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+            <small class="text-muted">Donec id elit non mi porta.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="rx-selections-save" class="container selection-save">
+      <div class="row">
+        <div class="col-sm-12 input-field md-form">
+          <button type="button" class="btn btn-primary waves-effect waves-light">Do 'Something' Button</button>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="container">
+        <h3 class="mb-1 font-bold">Pricing Estimates</h3>
+        <p>Pricing provided is not a quotation or promise to provide a certain price. We strive to provide accurate pricing
+          using your contract with PharMerica, available payor information and the pricing system as of the day and time
+          it was processed. For Fee-for-Service contract customers that are adjudicated through a third-party, wholesale
+          pricing (AWP) will be displayed. Final pricing is subject to change without notice and is not considered final
+          until invoiced. Actual invoiced amounts may vary due to a number of factors, which include, but are not limited
+          to, the accuracy of payor information, the NDC carried by the pharmacy and the NDC available at the time of dispense.</p>
+        <p>* For IV's, Compounds and other medications that are dependent upon specialized handling, call your pharmacy.</p>
+        <p>* Accessories and supplies may be added to the order without notice and the cost may not be included in the pricing
+          shown.
+        </p>
+        <p>* Estimates for items that are not specifically listed can be obtained by calling your pharmacy.</p>
+      </div>
+    </section>
+  </main>
+  <!-- /Start your project here-->
 
-    <script type="text/javascript">
-        $(function(){
-            var swiper = new Swiper('.swiper-container', {
-                scrollbar: '.swiper-scrollbar',
-                scrollbarHide: false,
-                slidesPerView: 'auto',
-                centeredSlides: true,
-                spaceBetween: 0,
-                grabCursor: true
-            });
-        });
-    </script>
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/tether.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Swiper core JavaScript -->
+  <script type="text/javascript" src="js/swiper.min.js"></script>
+  <!-- <script type="text/javascript" src="node_modules/kendo-ui-core/js/kendo.core.js"></script> -->
+
+  <script type="text/javascript">
+    $(function () {
+      var swiper = new Swiper('.swiper-container', {
+        scrollbar: '.swiper-scrollbar',
+        scrollbarHide: false,
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        spaceBetween: 0,
+        grabCursor: true
+      });
+    });
+
+    //Detect browser support for CORS
+    if ('withCredentials' in new XMLHttpRequest()) {
+      /* supports cross-domain requests */
+      console.log("CORS supported (XHR)");
+    }
+    else {
+      if (typeof XDomainRequest !== "undefined") {
+        //Use IE-specific "CORS" code with XDR
+        console.log("CORS supported (XDR)");
+      } else {
+        //Time to retreat with a fallback or polyfill
+        console.log("No CORS Support!");
+      }
+    }
+  </script>
 </body>
 
 </html>
